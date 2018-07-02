@@ -13,26 +13,7 @@
 		E7CB8C2820EA0F80002287DA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E7CB8C2620EA0F80002287DA /* Main.storyboard */; };
 		E7CB8C2A20EA0F80002287DA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E7CB8C2920EA0F80002287DA /* Assets.xcassets */; };
 		E7CB8C2D20EA0F80002287DA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E7CB8C2B20EA0F80002287DA /* LaunchScreen.storyboard */; };
-		E7CB8C3820EA0F80002287DA /* JenkinsFastlaneTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7CB8C3720EA0F80002287DA /* JenkinsFastlaneTestTests.swift */; };
-		E7CB8C4320EA0F80002287DA /* JenkinsFastlaneTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7CB8C4220EA0F80002287DA /* JenkinsFastlaneTestUITests.swift */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		E7CB8C3420EA0F80002287DA /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = E7CB8C1520EA0F80002287DA /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = E7CB8C1C20EA0F80002287DA;
-			remoteInfo = JenkinsFastlaneTest;
-		};
-		E7CB8C3F20EA0F80002287DA /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = E7CB8C1520EA0F80002287DA /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = E7CB8C1C20EA0F80002287DA;
-			remoteInfo = JenkinsFastlaneTest;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		E7CB8C1D20EA0F80002287DA /* JenkinsFastlaneTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JenkinsFastlaneTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -43,30 +24,14 @@
 		E7CB8C2920EA0F80002287DA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E7CB8C2C20EA0F80002287DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E7CB8C2E20EA0F80002287DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E7CB8C3320EA0F80002287DA /* JenkinsFastlaneTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JenkinsFastlaneTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E7CB8C3720EA0F80002287DA /* JenkinsFastlaneTestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JenkinsFastlaneTestTests.swift; sourceTree = "<group>"; };
 		E7CB8C3920EA0F80002287DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E7CB8C3E20EA0F80002287DA /* JenkinsFastlaneTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JenkinsFastlaneTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E7CB8C4220EA0F80002287DA /* JenkinsFastlaneTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JenkinsFastlaneTestUITests.swift; sourceTree = "<group>"; };
 		E7CB8C4420EA0F80002287DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		E7CB8C1A20EA0F80002287DA /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E7CB8C3020EA0F80002287DA /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E7CB8C3B20EA0F80002287DA /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -90,8 +55,6 @@
 			isa = PBXGroup;
 			children = (
 				E7CB8C1D20EA0F80002287DA /* JenkinsFastlaneTest.app */,
-				E7CB8C3320EA0F80002287DA /* JenkinsFastlaneTestTests.xctest */,
-				E7CB8C3E20EA0F80002287DA /* JenkinsFastlaneTestUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -148,42 +111,6 @@
 			productReference = E7CB8C1D20EA0F80002287DA /* JenkinsFastlaneTest.app */;
 			productType = "com.apple.product-type.application";
 		};
-		E7CB8C3220EA0F80002287DA /* JenkinsFastlaneTestTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = E7CB8C4A20EA0F80002287DA /* Build configuration list for PBXNativeTarget "JenkinsFastlaneTestTests" */;
-			buildPhases = (
-				E7CB8C2F20EA0F80002287DA /* Sources */,
-				E7CB8C3020EA0F80002287DA /* Frameworks */,
-				E7CB8C3120EA0F80002287DA /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				E7CB8C3520EA0F80002287DA /* PBXTargetDependency */,
-			);
-			name = JenkinsFastlaneTestTests;
-			productName = JenkinsFastlaneTestTests;
-			productReference = E7CB8C3320EA0F80002287DA /* JenkinsFastlaneTestTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		E7CB8C3D20EA0F80002287DA /* JenkinsFastlaneTestUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = E7CB8C4D20EA0F80002287DA /* Build configuration list for PBXNativeTarget "JenkinsFastlaneTestUITests" */;
-			buildPhases = (
-				E7CB8C3A20EA0F80002287DA /* Sources */,
-				E7CB8C3B20EA0F80002287DA /* Frameworks */,
-				E7CB8C3C20EA0F80002287DA /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				E7CB8C4020EA0F80002287DA /* PBXTargetDependency */,
-			);
-			name = JenkinsFastlaneTestUITests;
-			productName = JenkinsFastlaneTestUITests;
-			productReference = E7CB8C3E20EA0F80002287DA /* JenkinsFastlaneTestUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -197,16 +124,6 @@
 					E7CB8C1C20EA0F80002287DA = {
 						CreatedOnToolsVersion = 9.2;
 						ProvisioningStyle = Manual;
-					};
-					E7CB8C3220EA0F80002287DA = {
-						CreatedOnToolsVersion = 9.2;
-						ProvisioningStyle = Automatic;
-						TestTargetID = E7CB8C1C20EA0F80002287DA;
-					};
-					E7CB8C3D20EA0F80002287DA = {
-						CreatedOnToolsVersion = 9.2;
-						ProvisioningStyle = Automatic;
-						TestTargetID = E7CB8C1C20EA0F80002287DA;
 					};
 				};
 			};
@@ -224,8 +141,6 @@
 			projectRoot = "";
 			targets = (
 				E7CB8C1C20EA0F80002287DA /* JenkinsFastlaneTest */,
-				E7CB8C3220EA0F80002287DA /* JenkinsFastlaneTestTests */,
-				E7CB8C3D20EA0F80002287DA /* JenkinsFastlaneTestUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -238,20 +153,6 @@
 				E7CB8C2D20EA0F80002287DA /* LaunchScreen.storyboard in Resources */,
 				E7CB8C2A20EA0F80002287DA /* Assets.xcassets in Resources */,
 				E7CB8C2820EA0F80002287DA /* Main.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E7CB8C3120EA0F80002287DA /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E7CB8C3C20EA0F80002287DA /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,36 +169,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E7CB8C2F20EA0F80002287DA /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				E7CB8C3820EA0F80002287DA /* JenkinsFastlaneTestTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E7CB8C3A20EA0F80002287DA /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				E7CB8C4320EA0F80002287DA /* JenkinsFastlaneTestUITests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		E7CB8C3520EA0F80002287DA /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = E7CB8C1C20EA0F80002287DA /* JenkinsFastlaneTest */;
-			targetProxy = E7CB8C3420EA0F80002287DA /* PBXContainerItemProxy */;
-		};
-		E7CB8C4020EA0F80002287DA /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = E7CB8C1C20EA0F80002287DA /* JenkinsFastlaneTest */;
-			targetProxy = E7CB8C3F20EA0F80002287DA /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		E7CB8C2620EA0F80002287DA /* Main.storyboard */ = {
@@ -348,7 +220,8 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: DB Systel GmbH";
+				CODE_SIGN_STYLE = Manual;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -405,7 +278,8 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: DB Systel GmbH";
+				CODE_SIGN_STYLE = Manual;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
@@ -462,68 +336,6 @@
 			};
 			name = Release;
 		};
-		E7CB8C4B20EA0F80002287DA /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = JenkinsFastlaneTestTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = niit.JenkinsFastlaneTestTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JenkinsFastlaneTest.app/JenkinsFastlaneTest";
-			};
-			name = Debug;
-		};
-		E7CB8C4C20EA0F80002287DA /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = JenkinsFastlaneTestTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = niit.JenkinsFastlaneTestTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JenkinsFastlaneTest.app/JenkinsFastlaneTest";
-			};
-			name = Release;
-		};
-		E7CB8C4E20EA0F80002287DA /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = JenkinsFastlaneTestUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = niit.JenkinsFastlaneTestUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = JenkinsFastlaneTest;
-			};
-			name = Debug;
-		};
-		E7CB8C4F20EA0F80002287DA /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = JenkinsFastlaneTestUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = niit.JenkinsFastlaneTestUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = JenkinsFastlaneTest;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -541,24 +353,6 @@
 			buildConfigurations = (
 				E7CB8C4820EA0F80002287DA /* Debug */,
 				E7CB8C4920EA0F80002287DA /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		E7CB8C4A20EA0F80002287DA /* Build configuration list for PBXNativeTarget "JenkinsFastlaneTestTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				E7CB8C4B20EA0F80002287DA /* Debug */,
-				E7CB8C4C20EA0F80002287DA /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		E7CB8C4D20EA0F80002287DA /* Build configuration list for PBXNativeTarget "JenkinsFastlaneTestUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				E7CB8C4E20EA0F80002287DA /* Debug */,
-				E7CB8C4F20EA0F80002287DA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
