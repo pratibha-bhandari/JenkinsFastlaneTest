@@ -9,6 +9,11 @@
 /* Begin PBXBuildFile section */
 		A61936FE20EB222600848E7F /* JenkinsFastlaneTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A61936FD20EB222600848E7F /* JenkinsFastlaneTestTests.swift */; };
 		A619370620EB233D00848E7F /* SnapshotHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = A619370520EB233D00848E7F /* SnapshotHelper.swift */; };
+		A619370D20EB26D100848E7F /* Appfile in Resources */ = {isa = PBXBuildFile; fileRef = A619370720EB26D100848E7F /* Appfile */; };
+		A619370E20EB26D100848E7F /* Snapfile in Resources */ = {isa = PBXBuildFile; fileRef = A619370820EB26D100848E7F /* Snapfile */; };
+		A619370F20EB26D100848E7F /* report.xml in Resources */ = {isa = PBXBuildFile; fileRef = A619370920EB26D100848E7F /* report.xml */; };
+		A619371020EB26D100848E7F /* Fastfile in Resources */ = {isa = PBXBuildFile; fileRef = A619370A20EB26D100848E7F /* Fastfile */; };
+		A619371120EB26D100848E7F /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = A619370B20EB26D100848E7F /* README.md */; };
 		A61B8D8320EA40D7005B413F /* JenkinsFastlaneTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A61B8D8220EA40D7005B413F /* JenkinsFastlaneTestUITests.swift */; };
 		E7CB8C2120EA0F80002287DA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7CB8C2020EA0F80002287DA /* AppDelegate.swift */; };
 		E7CB8C2320EA0F80002287DA /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7CB8C2220EA0F80002287DA /* MasterViewController.swift */; };
@@ -40,6 +45,11 @@
 		A61936FD20EB222600848E7F /* JenkinsFastlaneTestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JenkinsFastlaneTestTests.swift; sourceTree = "<group>"; };
 		A61936FF20EB222600848E7F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A619370520EB233D00848E7F /* SnapshotHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SnapshotHelper.swift; path = fastlane/SnapshotHelper.swift; sourceTree = SOURCE_ROOT; };
+		A619370720EB26D100848E7F /* Appfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = Appfile; path = fastlane/Appfile; sourceTree = SOURCE_ROOT; };
+		A619370820EB26D100848E7F /* Snapfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = Snapfile; path = fastlane/Snapfile; sourceTree = SOURCE_ROOT; };
+		A619370920EB26D100848E7F /* report.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = report.xml; path = fastlane/report.xml; sourceTree = SOURCE_ROOT; };
+		A619370A20EB26D100848E7F /* Fastfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = Fastfile; path = fastlane/Fastfile; sourceTree = SOURCE_ROOT; };
+		A619370B20EB26D100848E7F /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = fastlane/README.md; sourceTree = SOURCE_ROOT; };
 		A61B8D8020EA40D7005B413F /* JenkinsFastlaneTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JenkinsFastlaneTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A61B8D8220EA40D7005B413F /* JenkinsFastlaneTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JenkinsFastlaneTestUITests.swift; sourceTree = "<group>"; };
 		A61B8D8420EA40D7005B413F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -120,6 +130,11 @@
 		E7CB8C1F20EA0F80002287DA /* JenkinsFastlaneTest */ = {
 			isa = PBXGroup;
 			children = (
+				A619370720EB26D100848E7F /* Appfile */,
+				A619370A20EB26D100848E7F /* Fastfile */,
+				A619370B20EB26D100848E7F /* README.md */,
+				A619370920EB26D100848E7F /* report.xml */,
+				A619370820EB26D100848E7F /* Snapfile */,
 				E7CB8C2020EA0F80002287DA /* AppDelegate.swift */,
 				E7CB8C2220EA0F80002287DA /* MasterViewController.swift */,
 				E7CB8C2420EA0F80002287DA /* DetailViewController.swift */,
@@ -252,8 +267,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A619370E20EB26D100848E7F /* Snapfile in Resources */,
+				A619371020EB26D100848E7F /* Fastfile in Resources */,
+				A619370D20EB26D100848E7F /* Appfile in Resources */,
 				E7CB8C2D20EA0F80002287DA /* LaunchScreen.storyboard in Resources */,
+				A619370F20EB26D100848E7F /* report.xml in Resources */,
 				E7CB8C2A20EA0F80002287DA /* Assets.xcassets in Resources */,
+				A619371120EB26D100848E7F /* README.md in Resources */,
 				E7CB8C2820EA0F80002287DA /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
