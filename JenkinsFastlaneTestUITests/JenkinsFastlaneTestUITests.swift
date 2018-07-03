@@ -2,7 +2,7 @@
 //  JenkinsFastlaneTestUITests.swift
 //  JenkinsFastlaneTestUITests
 //
-//  Created by Pratibha on 02/07/18.
+//  Created by Jenkins on 02/07/18.
 //  Copyright © 2018 Pratibha. All rights reserved.
 //
 

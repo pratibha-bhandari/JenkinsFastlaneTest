@@ -2,12 +2,11 @@
 //  JenkinsFastlaneTestTests.swift
 //  JenkinsFastlaneTestTests
 //
-//  Created by Pratibha on 02/07/18.
+//  Created by Jenkins on 03/07/18.
 //  Copyright © 2018 Pratibha. All rights reserved.
 //
 
 import XCTest
-@testable import JenkinsFastlaneTest
 
 class JenkinsFastlaneTestTests: XCTestCase {
     
