@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		A61936FE20EB222600848E7F /* JenkinsFastlaneTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A61936FD20EB222600848E7F /* JenkinsFastlaneTestTests.swift */; };
+		A619370620EB233D00848E7F /* SnapshotHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = A619370520EB233D00848E7F /* SnapshotHelper.swift */; };
 		A61B8D8320EA40D7005B413F /* JenkinsFastlaneTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A61B8D8220EA40D7005B413F /* JenkinsFastlaneTestUITests.swift */; };
 		E7CB8C2120EA0F80002287DA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7CB8C2020EA0F80002287DA /* AppDelegate.swift */; };
 		E7CB8C2320EA0F80002287DA /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7CB8C2220EA0F80002287DA /* MasterViewController.swift */; };
@@ -38,6 +39,7 @@
 		A61936FB20EB222600848E7F /* JenkinsFastlaneTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JenkinsFastlaneTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A61936FD20EB222600848E7F /* JenkinsFastlaneTestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JenkinsFastlaneTestTests.swift; sourceTree = "<group>"; };
 		A61936FF20EB222600848E7F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A619370520EB233D00848E7F /* SnapshotHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SnapshotHelper.swift; path = fastlane/SnapshotHelper.swift; sourceTree = SOURCE_ROOT; };
 		A61B8D8020EA40D7005B413F /* JenkinsFastlaneTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JenkinsFastlaneTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A61B8D8220EA40D7005B413F /* JenkinsFastlaneTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JenkinsFastlaneTestUITests.swift; sourceTree = "<group>"; };
 		A61B8D8420EA40D7005B413F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -88,6 +90,7 @@
 		A61B8D8120EA40D7005B413F /* JenkinsFastlaneTestUITests */ = {
 			isa = PBXGroup;
 			children = (
+				A619370520EB233D00848E7F /* SnapshotHelper.swift */,
 				A61B8D8220EA40D7005B413F /* JenkinsFastlaneTestUITests.swift */,
 				A61B8D8420EA40D7005B413F /* Info.plist */,
 			);
@@ -271,6 +274,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A61B8D8320EA40D7005B413F /* JenkinsFastlaneTestUITests.swift in Sources */,
+				A619370620EB233D00848E7F /* SnapshotHelper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
